@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e37df353b.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/newLogo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href=".about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="developer">
+            <div class="header-text">
+                <p>Web Developer/ JAVA Developer</p>
+                <h1>Hi, I'm <span>Neeta Kushwaha</span><br> From Banda (U.P.)</h1>
+                <div class="devPic">
+                    <img src="image/img3.jpeg" alt="">
+                </div>
+            </div>  
+        </div>
+        
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/img5.jpeg" alt="" height="400px">
+                    </div>
+                    <div class="about-col-1">
+                        <h1 class="sub-title">About <span>Me</span></h1>
+                        <p>I'm a final year student pursuing graduation in B Tech Computer Science Engineering.
+                            I have passion for computer programming.
+                            Aspiring for a challenging career in Software Development 
+                            as to use My learnt skills 
+                            getting involved with new technologies that can help me to
+                            improve my technical skills.
+                        </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Development</span><br>HTML|CSS|JavaScript</li>
+                                    <li><span>Problem Solving</span><br>Data Strucures & Algorithm</li>
+                                    <li><span>programming Languages</span><br>Java|C|Python</li>
+                                    <li><span>Knowledge</span><br>OOPs|Compuer Network</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>March'2024-Present</span><br>
+                                        Bharat Intern for Web Develoment</li>
+                                    <li><span>Open to Work</span><br>
+                                    Looking for an Internship</li>
+                                    <li><span>2023-24</span><br>Web development training at Apna College</li>
+                                    <li><span>2022-23</span><br>Core & Advance Java Training at AppSquadz Noida</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2021-24</span><br>Degree in Information Technology</li>
+                                    <li><span>2019-20</span><br>Senior Secondary</li>
+                                    <li><span>2017-18</span><br>Higher Secondary</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--------------------------------------- Services ------------------------------------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Wbarking on the journe of web development as a student, I am passionate
+                        abou translating creative idesas ino funcional websites.
+                        proficien in fron-end and back-end echnologies, I bring a fresh perspective
+                         and hunger for learning to every project.
+                    </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Problem Solving</h2>
+                    <p>As a sudent passionate about Data Structures and Algorothms, I offer 
+                        problem-solving services to tackle complex complex computational
+                        challenges. With a strong foundation in DSA,I analyze problems, design efficient 
+                        alogorithms, and implement robust solution.I'm ready to dive into the
+                         world of probelm-solving.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>Google Cloud</h2>
+                    <p>With a storng grasp of cloud technologies, Ihave achivel participated
+                         in various learning programs such as Google Cloud Arcade Facilitator
+                         Program,acquiring practical skills and knowledge in cloud computing.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+    <!-------------------------------- Portfolio ------------------------------------->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Work</span></h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" >
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>This project is a visual replica of the Netflix interface, 
+                            crafted entirely with HTML and CSS. It mirrors the layout and design 
+                            elements of the popular streaming platform, showcasing expertise
+                             in front-end web development. With responsive design and meticulous
+                              attention to detail, this clone project offers a glimpse into the developer's 
+                            skill in recreating complex user interfaces.
+                        </p>
+                        <a href="https://github.com/neetakushwaha/BharatIntern_Netflix-clone.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" >
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>This JavaScript project presents a dynamic weather application, 
+                            providing real-time weather updates based on user location or search input.
+                             Leveraging modern web technologies such as HTML, CSS, and JavaScript, 
+                             it offers an intuitive user interface for viewing current
+                             weather conditions, temperature, humidity, and more.
+                        </p>
+                        <a href="https://github.com/neetakushwaha/BharatIntern_WeatherApp.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" >
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>This Java project showcases a sleek digital clock with real-time display capabilities. 
+                            Built using Java Swing framework, it offers customization options for 
+                            time format and provides a responsive design suitable for various devices.
+                             With minimal system resource consumption and efficient time management,
+                              it serves as a testament to Java programming skills in GUI design and time handling.
+
+                        </p>
+                        <a href="https://github.com/neetakushwaha/DigitalClock.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+     <!------------------------------------------ contact ---------------------------------------------->
+     <div id="contact">
+        <div class="contaoiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fas fa-paper-plane"></i>kushwahaneeta14@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 6386503847</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/neeta-kushwaha-a8145a231/">
+                        <i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/neeta-kushwaha-a8145a231/">
+                            <i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/neeta-kushwaha-a8145a231/">
+                                <i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/neeta-kushwaha-a8145a231/">
+                                <i class="fab fa-github"></i></a>
+                                
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ywgkPqt0v7dRdtfwDbGP9SnEN-Ye6huL/view?usp=sharing" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Neeta all right reserved</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            } 
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }
+    </script>
+                    <
+</body>
+</html>
